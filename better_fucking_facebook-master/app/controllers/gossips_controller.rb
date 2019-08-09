@@ -79,4 +79,4 @@ end
     def gossip_params
       params.require(:gossip).permit(:title, :content, :author)
     end
-end
+
